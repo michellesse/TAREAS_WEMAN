@@ -1,0 +1,100 @@
+body {
+    background-color: #fafafa;
+    font-family: "Arial";
+}
+
+img {
+    margin-bottom: 3px;
+}
+
+
+#perfil {
+    border-color: rgb(255, 255, 255);
+    font-size: 40px;
+    width: 100%;
+}
+
+#menu{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:20px;
+    text-align:center;
+    font-family: "Arial";
+    font-size: 16px;
+    color: #666666;
+}
+/* Inline-block tiene limites para respetar el tamaño especificado, preguntar por estas excepciones y porque */
+#menu ul li {
+    display: inline-block;
+    margin: auto;
+    width: 40px;
+    height: 40px;
+    margin-right: 30px;
+    margin-left: 30px;
+ }  
+
+#section2 {
+    margin-top: 40px;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+h1 {
+    letter-spacing: 4px;
+    font-family: "Arial";
+    font-size: 24px;
+    font-weight: lighter;
+    color: #666666;
+
+} 
+
+h2 {
+    font-family: "Arial";
+    font-size: 32px;
+    color: #FA9FD1;
+
+}
+
+#filtros {
+    width: 40%;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+#titulo-filtro {
+    font-size: 21px;
+    text-align: right;
+}
+
+#filtros ul li {
+    margin: auto;
+    list-style:none;
+    text-align: left;
+    border: 1px;
+    border-style: solid;
+    border-color: #666666;
+    padding: 10px;
+ }  
+
+#section4 {
+    margin: auto;
+    width: 60%;
+    font-size: 28px;
+    color: #FA9FD1;
+}
+
+#footer{
+    background-color: #666666;
+    list-style:none;
+    padding:20px;
+    margin-top: 40px;
+    text-align:right;
+}
+/* Inline-block tiene limites para respetar el tamaño especificado, preguntar por estas excepciones y porque */
+#footer ul li {
+    display: inline;
+    margin: auto;
+    padding: 30px;
+ }  

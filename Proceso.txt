@@ -1,0 +1,17 @@
+Cuál es la estructura general
+Identificar secciones y sus componentes más pequeños
+Cómo generarla con los conocimientos que tengo?
+Buscar ejemplos de otras personas usando las chrome dev tools y toma los elementos que puedan funcionar como referencia
+Usar código de otros puede ser confuso (me generó un archivo larguisisisisisimo)
+RECUERDA: cuando recurras a trabajo de otros, toma elementos pequeños para no generar caos en tu proyecto o por lo menos sé muy cuidadosa.
+Imagen insertada, alineada y 
+No me sale el alineado de los íconos :( 
+Insertados como listado, posteriormente se eliminó las viñetas y se dió formato, vamos bien!
+Tenía un conflico con los width asignados...
+Al incorporar leyenda a los iconos, el inline no se respeta-
+Inline block lo soluciona pero tiene limitantes, es bueno investigar más. Pero con esto quedó :)
+Para la siguiente sección retomo formato de secciones anteriores
+Es bueno tener ordenado tu trabajo, de este modo es sencillo identificar elementos que te pueden servir posteriormente.
+Agregando footer e íconos.
+:)
+
