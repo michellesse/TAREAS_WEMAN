@@ -1,0 +1,46 @@
+Conversión de unidades de distancia
+
+////*EJERCICIO 1*
+
+1 Milla = 1.60934 Kilómetros
+
+Realiza el pseudocódigo que solicite una cantidad en Millas y lo convierta a kilómetros e imprima el resultado en pantalla.
+
+1. Inicio
+2. ConsKM= 1.60934
+3. Escribir: Introduce la cantidad a convertir= VarCant_Millas
+4. Leer VarCant_Millas
+5. VarResultado= VarCant_Millas * ConsKM
+6. Escribir: Resultado
+7. Fin
+
+////*EJERCICIO 2*
+
+https://docs.google.com/presentation/d/1HTNiazWvkQ-aZoXWHcJlEW-RhKXeP19ixnwxMzcHXfM/edit?usp=sharing
+
+////*EJERCICIO 4*
+
+1 Milla = 1.60934 Kilómetros
+1 Yarda = 91.4398 Cms
+1 Pulgada = 25.40 Milimetros
+
+En equipos de 3 realicen el pseudocdigo y el diagrama de flujo que solicite una cantidad, el tipo de unidad que está recibiendo
+ y finalmente el tipo de unidad que deseamos que sea la salida, realice la conversión e imprima el resultado en pantalla.
+
+1. Inicio
+2. Estableciendo variables y constantes 
+2. Escribir: Introduce la cantidad a convertir 
+3. Escribir: Introduce el tipo de unidad en el que se encuentra 
+4. Escribir: Introduce la unidad a la que deseas convertirla 
+	IF Unidad de entrada= Millas AND Unidad de salida= kilometros entonces ir a proceso Millas-Kilómetros
+	IF Unidad de entrada= Yarda AND Unidad de salida= Centimetros entonces ir a proceso Yardas-Centímetros
+	IF Unidad de entrada= Pulgada AND Unidad de salida= Milimetros entonces ir a proceso Pulgada-Milímetros
+6. Escribir: Resultado 
+7. Fin
+
+* Diagrama de flujo*
+
+https://docs.google.com/presentation/d/1HTNiazWvkQ-aZoXWHcJlEW-RhKXeP19ixnwxMzcHXfM/edit?usp=sharing
+
+
+
