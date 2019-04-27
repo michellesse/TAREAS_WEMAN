@@ -33,7 +33,7 @@ function ordenaPorHabitacion(arreglo) {
 function ordenaPorHuesped(arreglo) {
 	//ordena los nombres de los huespedes,
 	//trae (imprime) la info de 'registro" ya ordenada
-	console.log(registro.sort(function (prev, next) {
+	console.log(registro.sort(function (ant, sig) {
 		//especificamos la propiedad a ordenar
 		if (ant.nombreHuesped > sig.nombreHuesped) {
 			return 1;
@@ -53,7 +53,7 @@ function guardar(){
     // los muestra en la tabla... esta creando otra tabla?
     var fila="<tr><td>"+_habit+"</td><td>"+_huesp +"</td></tr>";
     // var _nuevoregistro = {numHabitacion:"110",...}  
-    registro.push(guardar); //esto no está funcionando, no lo guarda, solo imprime :(
+    registro.push(registro); //esto no está funcionando, no lo guarda, solo imprime :(
     var btn = document.createElement("TR");
    	btn.innerHTML=fila;
     document.getElementById("registro").appendChild(btn);
