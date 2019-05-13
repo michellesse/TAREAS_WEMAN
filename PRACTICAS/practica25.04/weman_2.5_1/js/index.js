@@ -53,8 +53,10 @@ function guardar(){
     // los muestra en la tabla... esta creando otra tabla?
     var fila="<tr><td>"+_habit+"</td><td>"+_huesp +"</td></tr>";
     // var _nuevoregistro = {numHabitacion:"110",...}  
-    registro.push(registro); //esto no está funcionando, no lo guarda, solo imprime :(
+    
     var btn = document.createElement("TR");
-   	btn.innerHTML=fila;
+    var nuevohuesped = {numHabitacion:_habit, nombreHuesped:_huesp}; //creamos una nueva variabe que guarde los datos que jalamos arriba y los envíe a las posiciones correspondientes del objetito
+    btn.innerHTML=fila;
     document.getElementById("registro").appendChild(btn);
+    registro.push(nuevohuesped); //esto no está funcionando, no lo guarda, solo imprime... los guarda pero quedan como undefined    
 }

@@ -5,41 +5,63 @@ body {
 
 img {
     margin-bottom: 3px;
-    
+
 }
 
+p {
+    font-size: 20px;
+}
 
 #perfil {
-    border-color: rgb(255, 255, 255);
-    font-size: 40px;
-    width: 100%;
+    width: 100%;    
+   /* position: relative;
+    align-items: center;*/
 }
 
-#menu{
-    border:1px solid #ccc;
-    border-width:1px 0;
-    list-style:none;
-    margin:20px;
-    text-align:center;
-    font-family: "Arial";
-    font-size: 16px;
-    color: #666666;
-}
-/* Inline-block tiene limites para respetar el tamaño especificado, preguntar por estas excepciones y porque */
-#menu ul li {
-    display: inline-block;
-    margin: auto;
-    width: 40px;
-    height: 40px;
-    margin-right: 30px;
-    margin-left: 30px;
- }  
+/*#perfil img {
+    margin-bottom: 3px;
+    vertical-align: middle;  
+    position: relative;
+ }*/
 
-#section2 {
+ #float img {
+    vertical-align: middle;
+    display:block;
+    margin:auto;
+ }
+
+ #tperf {
+    color: #403F3C;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 15px;
+ }
+
+  #tperf q {
+    color: #403F3C;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 14px;
+ }
+/*#textoalineado {
+    float: left;
+    vertical-align: middle;
+}*/
+
+#section1 {
     margin-top: 40px;
     font-size: 40px;
     text-align: center;
     margin-bottom: 80px;
+}
+
+#Descripción {
+    margin-top: 40px;
+    font-family: "Arial";
+    font-size: 70%;
+    text-align: center;
+    margin-bottom: 80px;
+    color: #80607E;
 }
 
 h1 {
@@ -53,8 +75,8 @@ h1 {
 
 h2 {
     font-family: "Arial";
-    font-size: 32px;
-    color: #FA9FD1;
+    font-size: 28px;
+    color: #727AA6;
 
 }
 
@@ -95,7 +117,7 @@ h2 {
 }
 /* Inline-block tiene limites para respetar el tamaño especificado, preguntar por estas excepciones y porque */
 #footer ul li {
-    display: inline;
+        display: inline;
     margin: auto;
-    padding: 30px;
+    padding: 10px;
  }  
